@@ -96,6 +96,7 @@ class _MapScreenState extends State<MapScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Real Time Locaiton Tracker"),
+        centertitle:true,
       ),
       body: GoogleMap(
         mapType: MapType.normal,
